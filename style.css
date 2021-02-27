@@ -90,7 +90,6 @@ cursor: pointer;
     border-radius: 24px;
     height: 44px;
     display: flex;
-    box-shadow: 2px 2px 2px 2px #dfe1e5;
     position:relative;
 }
 .search:hover {
