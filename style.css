@@ -5,14 +5,17 @@ justify-content: space-between;
 footer {
 display: flex;
 justify-content: space-between;
-position: fixed;
+/* position: fixed;
 bottom: 0;
 width: 100%;
 max-height: 7px;
 padding-left: 20px;
-padding-bottom: 40px;
+padding-bottom: 40px; */
 background: #f2f2f2;
 color: #70757a;
+bottom: 0;
+position: absolute;
+width: 100%;
 }
 
 .bottomlink {
@@ -90,10 +93,11 @@ cursor: pointer;
     border-radius: 24px;
     height: 44px;
     display: flex;
+    /* box-shadow: 1px 1px 1px 2px #dfe1e5; */
     position:relative;
 }
 .search:hover {
-box-shadow: 1px 1px 1px 2px #dfe1e5;
+box-shadow: 1px 1px 15px 1px #dfe1e5;
 position:relative;
 }
 #srch {
