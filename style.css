@@ -1,124 +1,135 @@
-nav {
-display: flex;
-justify-content: space-between;
-}
-footer {
-display: flex;
-justify-content: space-between;
-background: #f2f2f2;
-color: #70757a;
-bottom: 0;
-position: absolute;
-width: 100%;
-}
-
-.bottomlink {
-   color: #222;
-   text-decoration: none;
-   padding: 13px;
-   padding-right: 30px;
-   padding-left: 2;
-   display: inline-block
-}
-.bottomlink:hover {
-    text-decoration: underline;
-}
 body {
-
+    margin: 0;
     font-family: arial, sans-serif;
     font-size: 14px;
-    color: #222;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    padding: 6px;
 }
 .toplinkbutton{
     background: #1a73e8;
     border: 1px solid transparent;
     color: white;
-    padding: 9px 15px;
-    min-width: 80px;
+    padding: 9px 23px 9px 23px;
+    min-width: 96px;
     letter-spacing: .25px;
     margin-right: 8px;
     margin-left: 5px;
     vertical-align: middle;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
 }
 .toplink {
-margin: 0 5;
-padding: 5px;
-padding-top: 20px;
-padding-left: 20px;
-color: #222;
-display: inline-block;
-text-decoration: none;
+    margin: 0 5;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #222;
+    display: inline-block;
+    text-decoration: none;
 }
 .toplink:hover {
     text-decoration: underline;
 }
-
+main {
+    padding-top: 250px;
+    text-align: center;
+    display: row;
+    font-family: Arial, sans-serif;
+}
 main img {
-display: flex;
-flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-margin-top: 200px;
-height: 100%;
-}
-#btn {
-margin: 11px 4px 11px 4px;
-float: center;
-border: 1px solid #f8f9fa;
-padding: 0px 16px 0px 16px ;
-border-radius: 4px;
-height: 36px;
-font-size: 14px;
-background-color: #f8f9fa;
-cursor: pointer;
-}
-#spanbtn {
-    margin-right: 72px;
-}
-#logo {
-    position: absolute;
-    top: 05px;
-    right: -425px;
-    cursor: pointer
+    height: 93px;
+    width: 273px;
 }
 .search {
-    max-width: 584px;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
+    max-width: 645px;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 44px;
-    display: flex;
-    /* box-shadow: 1px 1px 1px 2px #dfe1e5; */
-    position:relative;
 }
 .search:hover {
-box-shadow: 1px 1px 15px 1px #dfe1e5;
-position:relative;
+    box-shadow: 1px 1px 15px 1px #dfe1e5;
+    position:relative;
 }
-#srch {
+.insidesearch {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    padding: 2px 8px 2px 14px 
+}
+#insidesrch {
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 4px;
+    border: none;
+    outline: none;  
+}
+.magglass {
+    padding-top: 8px;
+    height: 24px;
+    width: auto;
+    fill: #9aa0a6;
+}
+.mic {
     padding-top: 7px;
-    margin-left: 5px;
-    margin-top: 4px;
-    height: 50%;
-    border: ;
-    outline: none;
-
-    
+    height: 27px;
+    width: 27px;
+}
+#btn {
+    margin: 11px 4px 11px 4px;
+    float: center;
+    border: 1px solid #f8f9fa;
+    padding: 0px 16px 0px 16px ;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+#btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 .btns {
     display: flex;
-    
-    max-width: 500px;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 70px;
-    padding-right: 50px;
+    padding-top: 18px;
     width: 100%;
-    height: 36px;
+    height: 70px;
+    width: 1355.140;
+    border: 1px;
+    font-size: 1em;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 1.1em;
+}
+.bottomlink {
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block
+}
+.bottomlink:hover {
+    text-decoration: underline;
 }
