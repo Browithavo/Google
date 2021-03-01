@@ -148,6 +148,9 @@ footer {
     footer {
       display:none;
     }
+    .btns {
+        display: none;
+    }
   }
 .bottomlink {
     color: #70757a;
