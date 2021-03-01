@@ -94,8 +94,30 @@ main img {
     font-size: 14px;
     background-color: #f8f9fa;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#lucky {
+    margin: 11px 4px 11px 4px;
+    float: center;
+    border: 1px solid #f8f9fa;
+    padding: 0px 16px 0px 16px ;
+    border-radius: 4px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-top: 9px;
 }
 #btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+#lucky:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
@@ -122,6 +144,11 @@ footer {
     width: 100%;
     font-size: 1.1em;
 }
+@media only screen and (max-width: 500px) {
+    footer {
+      display:none;
+    }
+  }
 .bottomlink {
     color: #70757a;
     text-decoration: none;
